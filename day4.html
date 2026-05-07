@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Profilo Professionale</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header id="site-header">
+    <h2>Gianluca Grillo</h2>
+    <p class="tagline">Studente full stack-corso epicode 2026</p>
+    <section class="contact-info">
+        <section href="#chi sono">Chi sono</section><br>
+        <section href="#esperienze">Esperienze</section><br>
+        <section href="#competenze">Competenze</section><br>
+        <section href="#contatti">Contatti</section><br>
+    </section>
+</header>
+
+<body>
+    <nav>
+
+        <a href="#esperienze">Esperienze</a><br>
+        <a href="#competenze">Competenze</a><br>
+        <a href="#contatti">Contatti</a><br>
+    </nav>
+    <h2>Chi sono</h2>
+    <class avatar><img src="https://placehold.co/200x200" alt="Foto di Gianluca Grillo" />
+    <p>Ciao mi chiamo Gianluca Grillo e sto imparando a programmare.Sono uno stuente full stack presso epicode.Vivo a
+        Roma e ho 39 anni.Vorrei cambiare settore lavorativo dando una svolta alla mia vita</p>
+    <section class="experience">
+        <h2>Esperienze</h2>
+        <p>Un riepilogo delle mie esperienze lavorative recenti</p>
+        <h3>Pagina ricetta</h3>
+        <p>Una pagina con titolo,ingredienti e procedura.Esercizio di markup semantico applicato a un contenuto reale
+        </p>
+        <h3>Card di presentazione</h3>
+        <p>Una card di presentazione con nome,ruolo e descrizione.Esercizio di markup semantico applicato a un contenuto
+            reale</p>
+        <card-container>
+            <card>
+                <table border="1">
+                    <caption>
+                        <h3 id="esperienze">Esperienze</h3>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Anno</th>
+                            <th>Ruolo</th>
+                            <th>Azienda/Scuola</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2026</td>
+                            <td>studente</td>
+                            <td>Epicode</td>
+                        </tr>
+                        <tr>
+                            <td>2012/2024</td>
+                            <td>Tutor</td>
+                            <td>Fondazione I.T.S. R. Rossellini Roma</td>
+                        </tr>
+                        <tr>
+                            <td>2001/2006</td>
+                            <td>studente</td>
+                            <td>Liceo scientifico Azzarita</td>
+                        </tr>
+                </table>
+            </card>
+            <h3>Competenze</h3>
+            <p>Le tecnologie che vedo durante la prima settimana di corso:</p>
+            <ul class="skill-list">
+                <li>HTML:struttura delle pagine</li>
+                <li>CSS:Stile e impaginazione</li>
+                <li>Git e GitHub:versionamento del codice</li>
+                <li>Visual Studio Code:editor di lavoro</li>
+            </ul>
+    </section>
+
+    <article class="project">Progetti</article>
+    <h3>Progetti</h3>
+    <p>Durante il corso realizzerò diversi progetti,tra cui un sito web personale e un'applicazione web per la gestione
+        delle attività.</p>
+    <p>Puoi visionare i miei progetti,collegadoti al link sottostante, nella sezione:I miei progetti </p>
+    <a href="javascript:void(0)"> Vai a Github</a>
+    <h3>Contattami</h3>
+    <p>Compila il form per scrivermi.Ti risponderò in 24 ore </p>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Messaggio:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <label for="date">Data preferita per il contatto:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <label for="reason">Motivo del contatto:</label>
+        <input type="text" id="reason" name="reason" placeholder="Motivo del contatto" required><br>
+        <label for="contact-email">Email dove desideri essere ricontattato:</label>
+        <input type="email" id="contact-email" name="contact-email" placeholder="Email di contatto" required>
+        <input type="checkbox" id="newsletter" name="newsletter"><br>
+        <input type="submit" value="Invia">
+    </form>
+    </main>
+</body>
+<footer id="site-footer">
+    <H6> 2026 Gianluca Grillo</H6>
+</footer>
+
+</html>
